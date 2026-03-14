@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAMIL PAWLIK - GODOT</title>
+    <link rel="icon" href="DANE/OBRAZKI/globeusz.jpg">
+    <link rel="stylesheet" href="GODOT.css">
+</head>
+<body>
+    <div class="NAGLOWEK">
+        <header>
+            <p>GODOT ENGINE</p>
+        </header>
+        <nav>
+                <a href="../MAIN.html">Strona główna</a>
+                <a href="PASJA1.html">Pasja 1</a>
+                <a href="PASJA2.html">Pasja 2</a>
+                <a href="SIŁOWNIA.HTML">Siłownia</a>
+                <a href="KONTAKT.html">Kontakt</a>
+                <a href="GODOT.html">Godot</a>
+            </nav>
+    </div>
+
+    <main>
+        <div class="text_info">
+            <h1>Tworzenie Gier w Godot</h1>
+            <p>Moja przygoda z gamedev-em opiera się na silniku Godot. To potężne, open-source'owe narzędzie, które pozwala mi przekuwać pomysły w gry.</p>
+        </div>
+
+        <section class="godot_section">
+            <div class="godot_text">
+                <h2>Dlaczego Godot?</h2>
+                <p>Wybrałem ten silnik ze względu na jego lekkość i świetny system węzłów (Nodes). Pisanie skryptów w GDScript jest intuicyjne, co pozwala szybko prototypować mechaniki walki czy poruszania się postaci.</p>
+            </div>
+            <div class="godot_image">
+                <img src="../DANE/OBRAZKI/ss_b55afdc24a639027fa6685e938abf2a3de95779a.1920x1080.jpg" alt="Projekt w Godocie">
+            </div>
+        </section>
+
+        <section class="godot_section_reverse">
+            <div class="godot_text">
+                <h2>Moje Projekty</h2>
+                <p>Obecnie pracuję nad mechanikami gry platformowej. Skupiam się na płynności ruchu i interakcji z otoczeniem. Każdy błąd w kodzie to lekcja, która przybliża mnie do celu.</p>
+            </div>
+            <div class="godot_film">
+            <iframe 
+                src="https://drive.google.com/file/d/1-sb0czjvkey1dpcyTXDpUzvFHb7-B--C/preview" 
+                style="width: 100%; height: 300px; border: none; border-radius: 15px;" 
+                allow="autoplay"
+                allowfullscreen>
+            </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Kamil Pawlik 2i 22 &copy; 2024</p>
+    </footer>
+</body>
+</html>

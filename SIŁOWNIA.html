@@ -1,0 +1,135 @@
+* { box-sizing: border-box;
+
+
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #fcfcfc; 
+    }
+
+.NAGLOWEK {
+    height: 15%;
+    width: 100%; }
+
+
+header { height: 65%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f4f4;
+    color: white;
+    font-weight: bold; 
+    background-image: url(../DANE/OBRAZKI/header\ important.png);
+    background-size: cover;
+    background-position: center;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+    background: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #007bff;
+    }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+    gap: 30px;
+    height: 70%;
+    width: 100%;
+}
+
+.input, .nice-person {
+    width: 400px; 
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.nice-person { 
+    background: #e7f3ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+
+input, textarea { 
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; }
+button { 
+    background: #0084ff;
+    color: white;
+    
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer; }
+
+.nice-person_image {
+    width: 80px;
+    height: 80px;
+    background: url(../DANE/OBRAZKI/1000_F_49226343_zrW0Mlu6hqxzgN2gUBwW8EGaHmD5GZU6.jpg) center/cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+h2 { 
+    font-size: 18px;
+    margin-top: 0;
+ }
+h3 { 
+    margin: 10px 0 2px 0;
+
+    font-size: 12px;
+    color: #0084ff;
+ }
+p { 
+    margin: 0;
+    font-size: 14px; }
+
+footer { height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #1a1a1a;
+    color: #888;
+    font-size: 12px; }
+
+@media screen and (width <= 900px){
+    main{
+        flex-direction: column;
+        row-gap: 0px;
+        padding: 0px;
+        gap: 0px;
+        overflow-y: scroll;
+    }
+    
+    
+
+}
